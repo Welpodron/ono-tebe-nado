@@ -1,4 +1,4 @@
-/* FIX: 1.0 */
+/*! FIX: 1.0 */
 
 /*
 
@@ -82,7 +82,9 @@ body {
   border: 1px solid #fff;
   padding: 12px 32px;
   color: inherit;
-  font-family: inherit;
+  /*! FIX 2.0: альтернативные шрифты нельзя использовать inherit */
+  font-family: "Raleway", sans-serif;
+  /* font-family: inherit; */
   font-size: 22px;
   text-align: center;
   text-transform: uppercase;
